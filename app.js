@@ -21,6 +21,9 @@ const app = Vue.createApp({
         },
         reduce() {
             this.counter--;
+        },
+        resetInput() {
+            this.name = '';
         }
     }
 });
